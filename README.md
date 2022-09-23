@@ -2,11 +2,20 @@
 # 自己动手实现自动打包，上传下载服务，前端展示
 https://www.jianshu.com/p/caa2fed9cd74
 
+## 版本演变
+
+- Version1.x，Python脚本
+
+- Version2.x，本地的Gradle脚本
+
+- Version3.x，Gradle插件
+
+
 因为之前用Python脚本，需要服务器也安装Python环境，现在改进了，通过Gradle Task自动打包、加固、并上传到指定FTP地址，供其他人员使用APK，可以节省开发人员的打包时间、方便测试等同学使用最新apk、可以在FTP上查找历史版本APK。
 
 ![](https://raw.github.com/zhxh/packer/master/images/logo.jpg)
 
-# xpacker
+## xpacker
 
 参考文章，之前是用Python写成的打包、加固、上传脚本，最好为了更具适应性，写成了gradle插件
 
