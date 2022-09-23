@@ -1,11 +1,16 @@
+
+# 自己动手实现自动打包，上传下载服务，前端展示
+https://www.jianshu.com/p/caa2fed9cd74
+Packer设计初衷是通过Gradle Task自动打包、加固、并上传到指定FTP地址，供其他人员使用APK，可以节省开发人员的打包时间、方便测试等同学使用最新apk、可以在FTP上查找历史版本APK。
+
 ![](https://raw.github.com/zhxh/packer/master/images/logo.jpg)
 
-# Packer
+# xpacker
+
+参考文章，之前是用Python写成的打包、加固、上传脚本，最好为了更具适应性，写成了gradle插件
 
 [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/zhxhcoder/xpacker/blob/master/LICENSE)
 [![Release Version](https://img.shields.io/badge/release-2.1.0-red.svg)](https://github.com/zhxhcoder/xpacker/releases)
-
-Packer设计初衷是通过Gradle Task自动打包、加固、并上传到指定FTP地址，供其他人员使用APK，可以节省开发人员的打包时间、方便测试等同学使用最新apk、可以在FTP上查找历史版本APK。
 
 ## Feature
 
