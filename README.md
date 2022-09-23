@@ -35,7 +35,7 @@ https://www.jianshu.com/p/caa2fed9cd74
   
 - [x] 支持上传sdk-dependencies
 
-## Install
+## 引用
 
 ```groovy
 dependencies {
@@ -43,7 +43,7 @@ dependencies {
 }
 ```
 
-## Usage
+## 用法
 
 1. 将`packer-demo`中的`jiagu`目录复制到自己工程的`app`目录下。
     `jiagu.sh`是加固脚本，`walle-cli-all.jar`是[美团walle](https://github.com/Meituan-Dianping/walle)多渠道打包工具。
@@ -52,7 +52,6 @@ dependencies {
 
 ```groovy
 apply plugin: 'com.zhxh.packer'
-
 
 packer {
 
