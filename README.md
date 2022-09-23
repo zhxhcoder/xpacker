@@ -11,7 +11,7 @@ https://www.jianshu.com/p/caa2fed9cd74
 参考文章，之前是用Python写成的打包、加固、上传脚本，最好为了更具适应性，写成了gradle插件
 
 [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/zhxhcoder/xpacker/blob/master/LICENSE)
-[![Release Version](https://img.shields.io/badge/release-2.1.0-red.svg)](https://github.com/zhxhcoder/xpacker/releases)
+[![Release Version](https://img.shields.io/badge/release-3.1.0-red.svg)](https://github.com/zhxhcoder/xpacker/releases)
 
 ## Feature
 
@@ -39,7 +39,7 @@ https://www.jianshu.com/p/caa2fed9cd74
 
 ```groovy
 dependencies {
-    classpath "com.zhxh.packer:packer:2.1.0"
+    classpath "com.zhxh.packer:packer:3.1.0"
 }
 ```
 
