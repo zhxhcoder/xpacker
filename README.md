@@ -1,7 +1,8 @@
 
 # 自己动手实现自动打包，上传下载服务，前端展示
 https://www.jianshu.com/p/caa2fed9cd74
-Packer设计初衷是通过Gradle Task自动打包、加固、并上传到指定FTP地址，供其他人员使用APK，可以节省开发人员的打包时间、方便测试等同学使用最新apk、可以在FTP上查找历史版本APK。
+
+因为之前用Python脚本，需要服务器也安装Python环境，现在改进了，通过Gradle Task自动打包、加固、并上传到指定FTP地址，供其他人员使用APK，可以节省开发人员的打包时间、方便测试等同学使用最新apk、可以在FTP上查找历史版本APK。
 
 ![](https://raw.github.com/zhxh/packer/master/images/logo.jpg)
 
