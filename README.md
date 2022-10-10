@@ -13,8 +13,6 @@ https://www.jianshu.com/p/caa2fed9cd74
 
 因为之前用Python脚本，需要服务器也安装Python环境，现在改进了，通过Gradle Task自动打包、加固、并上传到指定FTP地址，供其他人员使用APK，可以节省开发人员的打包时间、方便测试等同学使用最新apk、可以在FTP上查找历史版本APK。
 
-![](https://raw.github.com/zhxh/packer/master/images/logo.jpg)
-
 ## xpacker
 
 参考文章，之前是用Python写成的打包、加固、上传脚本，最好为了更具适应性，写成了gradle插件
@@ -67,7 +65,7 @@ packer {
     jiagu {
         userName = '360加固用户名'
         password = '360加固密码'
-        jiaguPath = '~/360jiagubao_mac/jiaug' // 360加固工具路径
+        jiaguPath = '~/360jiagubao_mac/jiagu' // 360加固工具路径
         // channelsPath = '/***/channels.txt' // 多渠道配置文件，参考360加固多渠道配置模板
         channelsPath = "${project.projectDir}/walle_channels" // walle多渠道配置文件
         useWalle = true // 默认使用360加固，如果为true则使用美团walle进行多渠道打包
@@ -82,7 +80,7 @@ packer {
 
     ftp {
         ftpUserName = '***' // ftp用户名
-        ftpPassword = 'toolsftp' // ftp密码
+        ftpPassword = 'xxxx' // ftp密码
         ftpUrl = 'ftp://***/app/' // ftp地址
         autoCreateDir = false // false直接传到ftpUrl目录，true会创建 projectName/versionName/ 目录
         publishDir = "packer-demo-release" // 加固包上传目录(publish***Apks)task.
